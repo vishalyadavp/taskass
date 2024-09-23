@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tour Reservation Form</title>
+</head>
+<body>
+    <h2>Tour Reservation</h2>
+
+    <form>
+        <label for="name">First Name *:</label>
+        <input type="text" id="name" name="name" placeholder="First Name Last Name" required><br><br>
+
+        <label for="email">Email Address *:</label>
+        <input type="email" id="email" name="email" placeholder="Email Address" required><br><br>
+
+        <label for="package">Select Tour Packages *:</label>
+        <select id="package" name="package" required>
+            <option value="Goa">Goa</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Himachal">Himachal</option>
+            <option value="Andaman">Andaman</option>
+        </select><br><br>
+
+        <label for="arrival_date">Arrival Date *:</label>
+        <input type="date" id="arrival_date" name="arrival_date" required><br><br>
+
+        <label for="number_person">Number Of Persons *:</label>
+        <input type="number" id="number_person" name="number_person" placeholder="Number Of Persons" required><br><br>
+
+        <label>What would you want to avail? *:</label><br>
+        <input type="checkbox" id="boarding" name="service" value="Boarding">
+        <label for="boarding">Boarding</label><br>
+        <input type="checkbox" id="fooding" name="service" value="Fooding">
+        <label for="fooding">Fooding</label><br>
+        <input type="checkbox" id="sightseeing" name="service" value="Sightseeing">
+        <label for="sightseeing">Sightseeing</label><br><br>
+
+        <label for="coupon">Discount coupon code:</label>
+        <input type="text" id="coupon" name="coupon" placeholder="Enter Coupon Code"><br><br>
+
+        <label>Terms and conditions *:</label><br>
+        <input type="radio" id="agree" name="terms" value="agree" required>
+        <label for="agree">I agree</label><br>
+        <input type="radio" id="disagree" name="terms" value="disagree">
+        <label for="disagree">I disagree</label><br><br>
+
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>

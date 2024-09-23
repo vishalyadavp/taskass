@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <h2>Sign up</h2>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Full name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email id"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="8 characters" minlength="8"><br><br>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="8 characters" minlength="8"><br><br>
+
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="photo">Insert your photo:</label>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <label for="resume">Insert your resume:</label>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <label for="security">Security Question:</label>
+        <select id="security" name="security">
+            <option value="">Select</option>
+            <option value="pet_name">What is your pet's name?</option>
+            <option value="school_name">What is the name of your first school?</option>
+        </select><br><br>
+
+        <label for="answer">Answer:</label>
+        <textarea id="answer" name="answer" rows="4" cols="50"></textarea><br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to terms and conditions</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
