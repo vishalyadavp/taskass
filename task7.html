@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <table align="center" border="1">
+            <!-- Header row for Languages and Frameworks -->
+            <tr>
+                <th>Languages</th>
+                <th colspan="2">Frameworks</th>
+            </tr>
+            <!-- Form Inputs -->
+            <tr>
+                <td>Python</td>
+                <td colspan="2"><input type="text" name="django" placeholder="Enter Django"></td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td><input type="text" name="reactjs" placeholder="Enter React.js"></td>
+                <td><input type="text" name="nodejs" placeholder="Enter Node.js"></td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td colspan="2"><input type="text" name="ruby_on_rails" placeholder="Enter Ruby on Rails"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
